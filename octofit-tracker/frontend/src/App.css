@@ -1,0 +1,77 @@
+/* Estilo geral do aplicativo */
+body {
+  background-color: #f8f9fa; /* Cor de fundo clara */
+  color: #343a40; /* Cor do texto */
+  font-family: Arial, sans-serif;
+}
+
+/* Estilo para o menu de navegação */
+.navbar {
+  background-color: #007bff; /* Cor azul para o menu */
+}
+.navbar .navbar-brand {
+  color: #fff; /* Cor branca para o texto */
+  font-weight: bold;
+}
+.navbar .nav-link {
+  color: #fff; /* Cor branca para os links */
+}
+.navbar .nav-link:hover {
+  color: #d4d4d4; /* Cor cinza claro ao passar o mouse */
+}
+
+/* Estilo para tabelas */
+.table {
+  background-color: #ffffff; /* Fundo branco para tabelas */
+  border: 1px solid #dee2e6; /* Borda cinza clara */
+}
+.table th {
+  background-color: #007bff; /* Fundo azul para cabeçalhos */
+  color: #fff; /* Texto branco */
+}
+.table td {
+  color: #343a40; /* Texto cinza escuro */
+}
+
+/* Estilo para botões */
+button {
+  background-color: #007bff; /* Fundo azul */
+  color: #fff; /* Texto branco */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #0056b3; /* Azul mais escuro ao passar o mouse */
+}
+
+/* Estilo para títulos */
+h1, h2, h3, h4, h5, h6 {
+  color: #007bff; /* Azul para títulos */
+}
+
+/* Estilo para links */
+a {
+  color: #007bff; /* Azul para links */
+  text-decoration: none;
+}
+a:hover {
+  color: #0056b3; /* Azul mais escuro ao passar o mouse */
+  text-decoration: underline;
+}
+
+/* Estilo para o logotipo */
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+/* Estilo para o favicon */
+.favicon {
+  display: none; /* O favicon será configurado no arquivo public/manifest.json */
+}
